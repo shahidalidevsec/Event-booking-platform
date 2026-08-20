@@ -28,7 +28,7 @@ const Navbar = () => {
                             </>
                         ) : (
                             <>
-                                <Link to="/login" className="text-gray-200 hover:text-white transition">Login</Link>
+                                <Link to="/login" className="text-gray-200 hover:text-white transition font-">Login</Link>
                                 <Link to="/register" className="bg-white text-gray-900 hover:bg-gray-100 px-4 py-2 rounded-md font-semibold transition">Sign Up</Link>
                             </>
                         )}
@@ -40,3 +40,6 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+

@@ -89,10 +89,10 @@ const Home = () => {
             ) : events.length === 0 ? (
                 <div className="text-center py-20 text-xl text-gray-500">No events found matching your search.</div>
             ) : (
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7">
                     {events.map(event => (
                         <div key={event._id} className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition flex flex-col">
-                            <div className="h-48 bg-gray-200 overflow-hidden relative">
+                            <div className="h-40 bg-gray-200 overflow-hidden relative">
                                 {event.image ? (
                                     <img src={event.image} alt={event.title} className="w-full h-full object-cover" />
                                 ) : (
