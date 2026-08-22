@@ -40,7 +40,7 @@ const Login = () => {
     };
 
     return (
-        <div className="max-w-md mx-auto mt-20 bg-white p-8 rounded-xl shadow-lg border border-gray-100">
+        <div className="max-w-md mx-auto mt-20 bg-white p-9 rounded-xl shadow-lg border border-gray-200">
             <div className="text-center mb-8">
                 <h2 className="text-3xl font-extrabold text-gray-900 mb-2">Welcome Back</h2>
                 <p className="text-gray-500">Sign in to your Eventora account</p>
